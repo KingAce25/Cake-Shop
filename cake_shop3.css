@@ -1,0 +1,12 @@
+section .inner .image3 img{
+    width: 30rem;
+    position: relative;
+    /* display: none; */
+}
+/* This is the footer section */
+.external span:first-child{
+    background-color: #d3d3d3;
+}
+.external3 span:nth-child(3){
+    background-color: #FFCED4;
+}

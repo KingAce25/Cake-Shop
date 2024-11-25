@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: white;
+    padding: 15px;
+}
+body{
+    overflow-y: hidden;
+}
+header p{
+    color: #C34600;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+section{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(180deg, rgba(158, 11, 31, 0.79) 0%, rgba(224, 145, 155, 0.311) 48%), url(background.png);
+    background-size: 100% 90vh;
+    background-repeat: no-repeat;
+}
+
+section nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    z-index: 3;
+}
+section .my_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+nav img{
+    width: 80px;
+}
+section .my_list ul{
+    display: flex;
+}
+section .my_list ul li{
+    list-style: none;
+}
+section .my_list ul li a{
+    text-decoration: none;
+}
+section .my_list .my_list1 li a{
+    margin: 0px 20px;
+    color: white;
+}
+section .my_list .my_list2 li{
+    margin: 0px 20px;
+}
+
+section .my_list .my_list2 li, a{
+    color: white;
+}
+nav span{
+    color: #A70000;
+    background: white;
+    border-radius: 50%;
+    padding: 8px;
+    vertical-align: center;
+}
+nav span svg{
+    vertical-align: baseline;
+    margin-bottom: -3px;
+}
+
+section .inner{
+    display: flex;
+    width: 83%;
+    height: 66vh;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+section .inner .text{
+    align-self: center;
+    width: 800px;
+}
+section .inner .text h1{
+    font-size: 1.6rem;
+    font-family: "dream to berich";
+    color: white;
+}
+section .inner .text h1 strong{
+    font-size: 3.2rem;
+}
+section .inner .text p{
+    margin: 20px 0px;
+    color: white;
+}
+/* This is the image styling */
+section .inner .image{
+    display: flex;
+    align-items: center;
+}
+section .inner .image img{
+    width: 86%;
+    position: relative;
+}
+section .inner .image a{
+    background: rgba(255, 255, 255, 0.352);
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+section .inner .text button{
+    background: #A70000;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+section .inner .text button:hover{
+    background: linear-gradient(114deg, rgba(167, 0, 0, 1) 0%, rgba(153, 105, 3, 1) 100%);
+    box-shadow: 2px 3px 5px rgb(99, 98, 98);
+}
+/* This is the footer section */
+.external{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.external span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0px 1px;
+    background: #D3D3D3;
+}
+.external span:first-child{
+    background-color: #FFCED4;
+}
+
+
